@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    size-adjust: 30%;
+    background-color: aqua;
+}
+
+nav li {
+    display: inline;
+    margin-left: 30px;
+    margin-right: 5px;
+    background-color: crimson;
+    color: black;
+    border-radius: 4px;
+    border-style: solid;
+}
+
+.first {
+    display: flex;
+    align-items: center;
+}
+
+div.paragraph {
+    padding: 80px 10%;
+    color: black;
+}
+
+nav h2 {
+    margin-left: 139px;
+}
